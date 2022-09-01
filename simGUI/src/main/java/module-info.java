@@ -9,7 +9,7 @@ module prosep.bossLLC.simGUI {
 	requires UiBooster;
 	requires com.google.gson;
 
-    opens prosep.bossLLC.simGUI to javafx.fxml;
-    opens prosep.bossLLC.simGUI.data to com.google.gson;
-    exports prosep.bossLLC.simGUI;
+    opens en.talond.simGUI to javafx.fxml;
+    opens en.talond.simGUI.data to com.google.gson;
+    exports en.talond.simGUI;
 }

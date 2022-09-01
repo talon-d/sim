@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="568.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1" fx:controller="en.talond.simGUI.BadSheetHandler">
+   <children>
+      <Pane id="buttonPane" layoutX="387.0" layoutY="153.0" prefHeight="202.0" prefWidth="160.0">
+         <children>
+         	<Button id="innerMerger" mnemonicParsing="false" onAction="#mergeInwardly" prefHeight="40.0" prefWidth="160.0" text="Merge Within New" />
+            <Button id="merger" layoutY="40.0" mnemonicParsing="false" onAction="#mergeSelected" prefHeight="40.0" prefWidth="160.0" text="Merge to Existing" />
+            <Button id="maker" layoutY="80.0" mnemonicParsing="false" onAction="#inferThenHandleSelected" prefHeight="40.0" prefWidth="160.0" text="Make New Request" />
+            <Button id="forgetter" layoutY="120.0" mnemonicParsing="false" onAction="#removeSelected" prefHeight="40.0" prefWidth="160.0" text="Forget Data" />
+            <Button id="finalForgetter" layoutY="160.0" mnemonicParsing="false" onAction="#ignoreRemainingAndReturn" prefHeight="40.0" prefWidth="160.0" text="Ignore Remaining" />
+         </children>
+      </Pane>
+      <ListView id="remainingList" layoutX="14.0" layoutY="39.0" onMouseClicked="#adjustFocus" prefHeight="348.0" prefWidth="362.0" />
+      <Label layoutX="14.0" layoutY="8.0" prefHeight="30.0" prefWidth="273.0" text="UNHANDLED DATA">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="396.0" layoutY="43.0" prefHeight="92.0" prefWidth="116.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="156.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="111.0" minWidth="10.0" prefWidth="18.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="42.0" minHeight="10.0" prefHeight="29.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="36.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="28.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle id="cannaIndicator" fill="#ff1f1f" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" />
+            <Group id="cannaIndicatorGroup" />
+            <Label id="cannaIndicatorLabel" prefHeight="16.0" prefWidth="118.0" text="Canna">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label id="gcIndicatorLabel" prefHeight="12.0" prefWidth="106.0" text="GC?" GridPane.rowIndex="1">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Circle id="gcIndicator" fill="RED" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Circle id="fthcIndicator" fill="#eb0101" radius="10.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label id="fthcIndicatorLabel" prefHeight="16.0" prefWidth="118.0" text="fTHC?" GridPane.rowIndex="2">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label id="nameDisplay" layoutX="374.0" layoutY="9.0" prefHeight="30.0" prefWidth="191.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
