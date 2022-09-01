@@ -1,0 +1,352 @@
+Loading stored info...
+		Loading WorkingSet contents from /home/talon/Programming/eclipse-workspace/simGUI/simGUI/sim-set.dat...
+
+		Deserializing calibration...
+
+		Deserializing request: {"prefix":"14","suffix":"P2.3","date":{"year":2022,"month":6,"day":22},"id":{"batchNum":139.0,"topOfRange":137,"lastOfRange":139,"nullRange":false},"needsCanna":true,"needsFTHC":false,"needsGC":true,"targetCompounds":[]}
+		Deserialized data set: {"sample":"14_20220622_P2.3#139:(137-139)","ppmCannaResults":{},"massCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":1.0244,"result":0.1038}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/004-P1-A3-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":194.6,"df":100.0,"area":107.1947,"result":11.1814},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/003-P1-A2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":202.6,"df":100.0,"area":102.8959,"result":10.3092},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/002-P1-A1-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":207.8,"df":100.0,"area":118.1572,"result":11.542},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":10.0,"area":1.3656,"result":0.0137}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":8.3186,"result":0.9601},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":7.9427,"result":0.8805},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":9.0306,"result":0.9761}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":389.2372,"result":15.6371},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":356.6014,"result":13.7603},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":427.8608,"result":16.0969}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/004-P1-A3-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":194.6,"df":100.0,"area":474.3829,"result":55.8436},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/003-P1-A2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":202.6,"df":100.0,"area":471.8233,"result":53.3491},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/002-P1-A1-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":207.8,"df":100.0,"area":482.3692,"result":53.1767},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":10.0,"area":501.514,"result":5.6706}],"CBG":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":8.2908,"result":0.9271},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":7.658,"result":0.8225},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":9.0446,"result":0.9472}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":2.6864,"result":0.3194},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":3.7265,"result":0.4149}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":17.6992,"result":1.8604},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":16.0802,"result":1.6235},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":20.0613,"result":1.9748}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":1.9693,"result":0.2013},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":2.1912,"result":0.2098}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":124.6405,"result":6.0126},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":114.5137,"result":5.3059},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":130.4715,"result":5.894}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":177.9976,"result":20.0364},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":162.8253,"result":17.6048},{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/001-P1-B2-14_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":2026.0,"df":100.0,"area":194.7003,"result":20.5244}]},"gcResults":{},"thcResults":{}}
+
+		Deserializing request: {"prefix":"15","suffix":"P2.3","date":{"year":2022,"month":6,"day":22},"id":{"batchNum":139.0,"topOfRange":137,"lastOfRange":139,"nullRange":false},"needsCanna":true,"needsFTHC":false,"needsGC":true,"targetCompounds":[]}
+		Deserialized data set: {"sample":"15_20220622_P2.3#139:(137-139)","ppmCannaResults":{},"massCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":7.4519,"result":0.1393}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":4.3888,"result":0.0791}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":2729.342,"result":54.4433}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":10.7002,"result":0.0743}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":472.8914,"result":9.6208}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":2.417,"result":0.0497}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":2.4143,"result":0.0439}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":25.821,"result":0.2153}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_20220623 2022-06-23 13-10-36/005-P1-D1-15_20220622_P2.3#139_(137-139).D","rType":"MASS %","prepAmount":1126.0,"df":10.0,"area":54.217,"result":1.0547}]},"gcResults":{},"thcResults":{}}
+
+		Deserializing request: {"pumaType":"TWO3","date":{"year":2022,"month":7,"day":12},"id":{"batchNum":10.0,"topOfRange":0,"lastOfRange":0,"nullRange":true}}
+		Deserialized data set: [{"sample":"11AD_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":15.0791,"result":317.35}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":355.9853,"result":7226.009999999999}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1763.3763,"result":40556.29}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":3440.9678,"result":26900.81}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":451.4576,"result":10341.98}],"CBG":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":17.7971,"result":387.28}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":31.2299,"result":722.45}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":139.3018,"result":2849.44}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":7.1315,"result":141.89000000000001}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":515.819,"result":4842.17}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1347.1887,"result":29510.51}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"14S_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":9.5856,"result":20.173000000000002}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":345.2233,"result":700.756}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":60.5434,"result":139.245}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3659.0549,"result":2860.578}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":453.285,"result":1038.385}],"CBG":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":19.4577,"result":42.342000000000006}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":21.5874,"result":49.939}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":131.4326,"result":268.847}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":8.0836,"result":16.083000000000002}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":493.0185,"result":462.81399999999996}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":1218.8438,"result":2669.908}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"15S_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3.8192,"result":8.038}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":5.0248,"result":10.2}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":936.7393,"result":2154.428}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":46.1155,"result":36.052}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":459.7287,"result":1053.146}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3.6312,"result":8.4}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":7.7935,"result":15.942}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":21.0876,"result":19.796}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":67.5844,"result":148.04500000000002}]},"massCannaResults":{},"gcResults":{},"thcResults":{}}]
+
+		Deserializing puma: {"pumaType":"TWO3","date":{"year":2022,"month":7,"day":12},"id":{"batchNum":10.0,"topOfRange":0,"lastOfRange":0,"nullRange":true}}
+
+		Deserialized puma data: [{"sample":"11AD_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":15.0791,"result":317.35}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":355.9853,"result":7226.009999999999}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1763.3763,"result":40556.29}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":3440.9678,"result":26900.81}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":451.4576,"result":10341.98}],"CBG":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":17.7971,"result":387.28}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":31.2299,"result":722.45}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":139.3018,"result":2849.44}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":7.1315,"result":141.89000000000001}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":515.819,"result":4842.17}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/001-P1-B1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1347.1887,"result":29510.51}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"14S_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":9.5856,"result":20.173000000000002}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":345.2233,"result":700.756}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":60.5434,"result":139.245}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3659.0549,"result":2860.578}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":453.285,"result":1038.385}],"CBG":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":19.4577,"result":42.342000000000006}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":21.5874,"result":49.939}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":131.4326,"result":268.847}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":8.0836,"result":16.083000000000002}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":493.0185,"result":462.81399999999996}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/002-P1-B2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":1218.8438,"result":2669.908}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"15S_20220712_P2.3#10","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3.8192,"result":8.038}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":5.0248,"result":10.2}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":936.7393,"result":2154.428}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":46.1155,"result":36.052}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":459.7287,"result":1053.146}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":3.6312,"result":8.4}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":7.7935,"result":15.942}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":21.0876,"result":19.796}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C2.3_20220712_F-E-R 2022-07-12 10-20-43/005-P1-B3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":10.0,"area":67.5844,"result":148.04500000000002}]},"massCannaResults":{},"gcResults":{},"thcResults":{}}]
+
+		Deserializing puma: {"pumaType":"ONE_75","date":{"year":2022,"month":7,"day":12},"id":{"batchNum":155.0,"topOfRange":0,"lastOfRange":0,"nullRange":true}}
+		Deserialized puma data: [{"sample":"11AD_20220712_P1.1#155","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":4.4053,"result":92.71000000000001}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1096.7347,"result":22262.21}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":8.6315,"result":198.52}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":14.2892,"result":111.71}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":424.9777,"result":9735.380000000001}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1017.9871,"result":23549.440000000002}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":3.4823,"result":69.28999999999999}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":20.0884,"result":188.57999999999998}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/001-P1-A1-Feed.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":100.0,"area":1456.0397,"result":31894.920000000002}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"14S_20220712_P1.1#155","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":10.9455,"result":11.517999999999999}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":12085.1904,"result":12265.639000000001}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":46.3899,"result":53.3465}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":83.5401,"result":32.655}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":317.3416,"result":363.483}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":424.3871,"result":490.87449999999995}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":3.188,"result":3.2605}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":58.2709,"result":57.9685}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":57.8359,"result":27.146499999999996}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/002-P1-A2-Raffinate.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":1369.4579,"result":1499.9160000000002}]},"massCannaResults":{},"gcResults":{},"thcResults":{}},{"sample":"15S_20220712_P1.1#155","ppmCannaResults":{"THCV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":9.1659,"result":9.645}],"CBD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":730.1132,"result":741.0145}],"CBT":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":38.6608,"result":44.4585}],"CBC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":54.0729,"result":21.136499999999998}],"ISTD":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":341.9892,"result":391.714}],"d8-THC":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":3370.447,"result":3898.4845}],"CBL":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":4.2986,"result":4.3965}],"CBDV":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":1.561,"result":1.553}],"CBN":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":17.5396,"result":8.2325}],"THC-D9":[{"source":"C:\\Users\\Public\\Documents\\ChemStation\\2\\Data\\MOJO_SSMBEEW8C1.1_20220712_FER 2022-07-12 09-21-43/003-P1-A3-Extract.D","rType":"CALC\u0027D PPM","prepAmount":0.0,"df":5.0,"area":5047.917,"result":5528.7955}]},"massCannaResults":{},"gcResults":{},"thcResults":{}}]
+
+	Successfully loaded WorkingSet contents from /home/talon/Programming/eclipse-workspace/simGUI/simGUI/sim-set.dat!
+Successfully loaded data.
+Attempting to load fxml from controller...
+Total deletion button fired!
+	Deleting ALL samples...
+Handling data sheet submission...
+	Collect data sheets from /home/talon/sim/input
+15.S_20220629_P2.3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-003-203-15.s_20220629_P2.3.D
+GC CBD/CBC  64.6969 2.4714 -1.0 64.6969
+GC CBE  14.1611 0.541 -1.0 14.1611
+GC CBG/CBN  39.2254 1.4984 -1.0 39.2254
+GC CBL  6.2331 0.2381 -1.0 6.2331
+GC CBT  1918.6782 73.2937 -1.0 1918.6782
+GC Fatty Acids  227.2194 8.6798 -1.0 227.2194
+GC Hydrocarbons_C27-C29  22.0853 0.8437 -1.0 22.0853
+GC Quinone  169.9968 6.4939 -1.0 169.9968
+GC Sequiterpenoids  46.9061 1.7918 -1.0 46.9061
+GC THC  81.2928 3.1054 -1.0 81.2928
+
+12_20220620_CBT-120C 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-007-207-12_20220620_CBT-120C.D
+GC CBD/CBC  172.4969 2.1021 -1.0 172.4969
+GC CBE  11.3643 0.1385 -1.0 11.3643
+GC CBG/CBN  27.0939 0.3302 -1.0 27.0939
+GC CBL  24.5393 0.299 -1.0 24.5393
+GC CBT  6304.9717 76.8349 -1.0 6304.9717
+GC Fatty Acids  619.4149 7.5484 -1.0 619.4149
+GC Quinone  391.9498 4.7765 -1.0 391.9498
+GC Sequiterpenoids  639.0076 7.7872 -1.0 639.0076
+GC THC  7.9215 0.0965 -1.0 7.9215
+
+15.S_20220629_P1.1 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-006-206-15.s_20220629_P1.1.D
+GC CBD/CBC  2999.7605 73.9382 -1.0 2999.7605
+GC CBDV  8.7914 0.2167 -1.0 8.7914
+GC CBE  39.3737 0.9705 -1.0 39.3737
+GC CBG/CBN  60.5157 1.4916 -1.0 60.5157
+GC CBL  7.6033 0.1874 -1.0 7.6033
+GC CBT  130.6441 3.2201 -1.0 130.6441
+GC Fatty Acids  8.2852 0.2042 -1.0 8.2852
+GC Quinone  51.3965 1.2668 -1.0 51.3965
+GC Sequiterpenoids  2.1978 0.0542 -1.0 2.1978
+GC THC  722.0889 17.7981 -1.0 722.0889
+
+14.S_20220629_P2.3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-002-202-14.s_20220629_P2.3.D
+GC CBD/CBC  3384.1477 36.5921 -1.0 3384.1477
+GC CBDV  34.906 0.3774 -1.0 34.906
+GC CBE  1.559 0.0169 -1.0 1.559
+GC CBG/CBN  664.4409 7.1845 -1.0 664.4409
+GC CBL  236.3696 2.5558 -1.0 236.3696
+GC CBT  78.925 0.8534 -1.0 78.925
+GC Fatty Acids  708.322 7.659 -1.0 708.322
+GC Quinone  452.0527 4.888 -1.0 452.0527
+GC Sequiterpenoids  259.4239 2.8051 -1.0 259.4239
+GC THC  2291.5688 24.7783 -1.0 2291.5688
+GC Triglyceride  5.997 0.0648 -1.0 5.997
+
+11.AD_20220629_P2.3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-001-201-11.ad_20220629_P2.3.D
+GC CBD/CBC  4957.6528 22.8848 -1.0 4957.6528
+GC CBDV  29.3426 0.1354 -1.0 29.3426
+GC CBE  0.2888 0.0013 -1.0 0.2888
+GC CBG/CBN  1293.9604 5.973 -1.0 1293.9604
+GC CBL  409.8251 1.8918 -1.0 409.8251
+GC CBT  5817.9331 26.856 -1.0 5817.9331
+GC Diglyceride  7.0375 0.0325 -1.0 7.0375
+GC Fatty Acids  1465.0991 6.763 -1.0 1465.0991
+GC Hydrocarbons_C27-C29  51.8806 0.2395 -1.0 51.8806
+GC Monoglyceride  6.8378 0.0316 -1.0 6.8378
+GC Quinone  1163.5215 5.3709 -1.0 1163.5215
+GC Sequiterpenoids  498.5493 2.3013 -1.0 498.5493
+GC THC  3164.1292 14.6058 -1.0 3164.1292
+GC Triglyceride  13.3509 0.0616 -1.0 13.3509
+
+14.S_20220629_P1.1 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-005-205-14.s_20220629_P1.1.D
+GC CBD/CBC  697.1503 53.3645 -1.0 697.1503
+GC CBE  25.4115 1.9452 -1.0 25.4115
+GC CBG/CBN  47.1899 3.6122 -1.0 47.1899
+GC CBL  7.7705 0.5948 -1.0 7.7705
+GC CBT  110.0691 8.4254 -1.0 110.0691
+GC Fatty Acids  5.4548 0.4175 -1.0 5.4548
+GC Quinone  41.3895 3.1682 -1.0 41.3895
+GC THC  353.6607 27.0715 -1.0 353.6607
+
+11.AD_20220629_P1.1 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220629 2022-06-29 09-10-21/B-004-204-11.ad_20220629_P1.1.D
+GC CBD/CBC  13365.0459 24.252 -1.0 13365.0459
+GC CBDV  120.3132 0.2183 -1.0 120.3132
+GC CBE  0.7994 0.0015 -1.0 0.7994
+GC CBG/CBN  4920.5786 8.9288 -1.0 4920.5786
+GC CBT  64.2264 0.1165 -1.0 64.2264
+GC Fatty Acids  22.9649 0.0417 -1.0 22.9649
+GC Monoglyceride  15.1035 0.0274 -1.0 15.1035
+GC Quinone  53.9889 0.098 -1.0 53.9889
+GC Sequiterpenoids  0.7825 0.0014 -1.0 0.7825
+GC THC  1253.7603 2.2751 -1.0 1253.7603
+
+
+		Parsed data from gc0629.xls
+CBT_20220628_AFTER-2CX-COLUMNS#1 2332.0:	C:\Users\Public\Documents\ChemStation\4\Data\MOJO_20220630-fTHC-2 2022-06-30 13-58-57/003-P1-C1-CBT_20220628_After-2CX-Columns.D
+FTHC CBN 10x 73.8533 1.3031 0.3101 7.2317
+FTHC ISTD 10x 335.5041 5.9197 3.4701 80.9236
+FTHC THC-D9 10x 33.7608 0.5957 0.3215 7.4979
+
+
+		Parsed data from fthc4.xls
+FEED_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220701_F-E-R 2022-07-01 11-07-33/001-P1-A1-Feed_1.1.D
+CANNA CBC 100x 51.8484 1.1279 -1.0 4.0534
+CANNA CBD 100x 2953.5198 64.2518 -1.0 599.524
+CANNA CBDV 100x 10.1658 0.2211 -1.0 2.0226
+CANNA CBL 100x 2.9956 0.0652 -1.0 0.6128
+CANNA CBN 100x 23.7343 0.5163 -1.0 2.228
+CANNA CBT 100x 35.7095 0.7768 -1.0 8.0206
+CANNA d8-THC 100x 89.6862 1.9511 -1.0 20.7474
+CANNA ISTD 100x 475.5204 10.3446 -1.0 108.9322
+CANNA THC-D9 100x 776.0782 16.8831 -1.0 170.0019
+CANNA THCV 100x 1.8656 0.0406 -1.0 0.3926
+
+RAFFINATE_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220701_F-E-R 2022-07-01 11-07-33/002-P1-A2-Raffinate_1.1.D
+CANNA CBC 20x 22.8879 2.4049 -1.0 1.7893
+CANNA CBD 20x 54.4612 5.7223 -1.0 11.0549
+CANNA CBN 20x 4.2208 0.4435 -1.0 0.3962
+CANNA CBT 20x 2.004 0.2106 -1.0 0.4501
+CANNA d8-THC 20x 1.591 0.1672 -1.0 0.3681
+CANNA ISTD 20x 486.2574 51.0919 -1.0 111.3918
+CANNA THC-D9 20x 17.7872 1.8689 -1.0 3.8963
+
+EXTRACT_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220701_F-E-R 2022-07-01 11-07-33/003-P1-A3-Extract_1.1.D
+CANNA CBD 10x 1.7055 0.3372 -1.0 0.3462
+CANNA ISTD 10x 504.0237 99.6628 -1.0 115.4617
+
+
+		Parsed data from puma1.10701.xls
+11AD_20220701_P2.3#148 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-004-204-11AD_20220701_P2.3#148.D
+GC CBD/CBC  4465.4453 4.1553 -1.0 4465.4453
+GC CBDV  0.4396 4.0E-4 -1.0 0.4396
+GC CBE  7.1218 0.0066 -1.0 7.1218
+GC CBG/CBN  18572.1563 17.2824 -1.0 18572.1563
+GC CBL  3104.4751 2.8889 -1.0 3104.4751
+GC CBT  5028.1841 4.679 -1.0 5028.1841
+GC Diglyceride  8.1861 0.0076 -1.0 8.1861
+GC Fatty Acids  9873.2031 9.1875 -1.0 9873.2031
+GC Hydrocarbons_C27-C29  988.5447 0.9199 -1.0 988.5447
+GC Quinone  20088.3203 18.6932 -1.0 20088.3203
+GC Sequiterpenoids  3264.9976 3.0382 -1.0 3264.9976
+GC Steroids  45.7686 0.0426 -1.0 45.7686
+GC Steroids  10.8089 0.0101 -1.0 10.8089
+GC THC  9320.5049 8.6732 -1.0 9320.5049
+GC Triglyceride  73.5644 0.0685 -1.0 73.5644
+
+15S_20220701_P2.3#148 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-006-206-15S_20220701_P2.3#148.D
+GC CBD/CBC  91.0239 3.2426 -1.0 91.0239
+GC CBE  21.5713 0.7684 -1.0 21.5713
+GC CBG/CBN  51.1512 1.8222 -1.0 51.1512
+GC CBL  9.8604 0.3513 -1.0 9.8604
+GC CBT  1919.5028 68.3788 -1.0 1919.5028
+GC Diglyceride  6.9158 0.2464 -1.0 6.9158
+GC Fatty Acids  244.2643 8.7015 -1.0 244.2643
+GC Hydrocarbons_C27-C29  45.5674 1.6233 -1.0 45.5674
+GC Quinone  173.1844 6.1694 -1.0 173.1844
+GC Sequiterpenoids  53.6356 1.9107 -1.0 53.6356
+GC Steroids  7.4585 0.2657 -1.0 7.4585
+GC Steroids  5.5673 0.1983 -1.0 5.5673
+GC THC  123.3623 4.3946 -1.0 123.3623
+GC Triglyceride  17.1427 0.6107 -1.0 17.1427
+
+13.2_20220623_APR.FSO#8 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-009-209-13.2_20220623_APR.FSO#8.D
+GC CBD/CBC  1820.5142 32.8449 -1.0 1820.5142
+GC CBDV  11.8813 0.2144 -1.0 11.8813
+GC CBE  3.2261 0.0582 -1.0 3.2261
+GC CBG/CBN  600.4168 10.8325 -1.0 600.4168
+GC CBL  15.0977 0.2724 -1.0 15.0977
+GC CBT  41.964 0.7571 -1.0 41.964
+GC Diglyceride  103.3276 1.8642 -1.0 103.3276
+GC Fatty Acids  131.8547 2.3789 -1.0 131.8547
+GC Hydrocarbons_C27-C29  120.495 2.1739 -1.0 120.495
+GC Quinone  38.5073 0.6947 -1.0 38.5073
+GC Sequiterpenoids  62.1637 1.1215 -1.0 62.1637
+GC Steroids  11.9676 0.2159 -1.0 11.9676
+GC Steroids  12.462 0.2248 -1.0 12.462
+GC THC  178.0862 3.213 -1.0 178.0862
+GC Triglyceride  38.5311 0.6952 -1.0 38.5311
+
+CBT_20220701_FREEZER-PRODUCT#1 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-010-210-CBT_20220701_FREEZER-PRODUCT#1.D
+GC CBD/CBC  536.7341 4.1903 -1.0 536.7341
+GC CBDV  43.3937 0.3388 -1.0 43.3937
+GC CBE  12.9665 0.1012 -1.0 12.9665
+GC CBG/CBN  155.806 1.2164 -1.0 155.806
+GC CBL  103.1445 0.8052 -1.0 103.1445
+GC CBT  6071.9702 47.4039 -1.0 6071.9702
+GC Diglyceride  12.564 0.0981 -1.0 12.564
+GC Fatty Acids  919.1737 7.176 -1.0 919.1737
+GC Hydrocarbons_C27-C29  5.8595 0.0457 -1.0 5.8595
+GC Quinone  671.0229 5.2387 -1.0 671.0229
+GC Sequiterpenoids  258.9346 2.0215 -1.0 258.9346
+GC THC  23.4206 0.1828 -1.0 23.4206
+GC Triglyceride  12.9396 0.101 -1.0 12.9396
+
+14S_20220701_P2.3#148 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-005-205-14S_20220701_P2.3#148.D
+GC CBD/CBC  3283.3787 35.6911 -1.0 3283.3787
+GC CBDV  36.0728 0.3921 -1.0 36.0728
+GC CBE  0.2381 0.0026 -1.0 0.2381
+GC CBG/CBN  590.5859 6.4198 -1.0 590.5859
+GC CBL  227.2753 2.4705 -1.0 227.2753
+GC CBT  137.7155 1.497 -1.0 137.7155
+GC Diglyceride  16.8933 0.1836 -1.0 16.8933
+GC Fatty Acids  881.1274 9.5781 -1.0 881.1274
+GC Hydrocarbons_C27-C29  7.9819 0.0868 -1.0 7.9819
+GC Quinone  390.6915 4.2469 -1.0 390.6915
+GC Sequiterpenoids  261.2018 2.8393 -1.0 261.2018
+GC THC  2232.1411 24.2639 -1.0 2232.1411
+GC Triglyceride  14.9924 0.163 -1.0 14.9924
+
+14S_20220701_P1.1#3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-002-202-14S_20220701_P1.1#3.D
+GC CBD/CBC  349.9228 63.6235 -1.0 349.9228
+GC CBE  11.5251 2.0955 -1.0 11.5251
+GC CBG/CBN  26.6968 4.854 -1.0 26.6968
+GC CBL  2.8848 0.5245 -1.0 2.8848
+GC CBT  32.7774 5.9596 -1.0 32.7774
+GC Quinone  13.5438 2.4626 -1.0 13.5438
+GC THC  112.6396 20.4803 -1.0 112.6396
+
+11AD_20220701_P1.1#3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-001-201-11AD_20220701_P1.1#3.D
+GC CBD/CBC  13906.584 39.198 -1.0 13906.584
+GC CBDV  122.5466 0.3454 -1.0 122.5466
+GC CBE  0.1277 4.0E-4 -1.0 0.1277
+GC CBG/CBN  3581.0798 10.0939 -1.0 3581.0798
+GC CBL  4.3397 0.0122 -1.0 4.3397
+GC CBT  625.1578 1.7621 -1.0 625.1578
+GC Fatty Acids  61.4198 0.1731 -1.0 61.4198
+GC Hydrocarbons_C27-C29  125.2325 0.353 -1.0 125.2325
+GC Quinone  84.7505 0.2389 -1.0 84.7505
+GC Sequiterpenoids  32.0133 0.0902 -1.0 32.0133
+GC Steroids  8.0767 0.0228 -1.0 8.0767
+GC Steroids  6.4063 0.0181 -1.0 6.4063
+GC Triglyceride  7.2933 0.0206 -1.0 7.2933
+
+15S_20220701_P1.1#3 0.0:	C:\Users\Public\Documents\ChemStation\6\Data\MOJO_20220701 2022-07-01 10-51-20/B-003-203-15S_20220701_P1.1#3.D
+GC CBD/CBC  2117.8767 73.6274 -1.0 2117.8767
+GC CBG/CBN  17.5281 0.6094 -1.0 17.5281
+GC CBT  43.3109 1.5057 -1.0 43.3109
+GC Quinone  14.493 0.5038 -1.0 14.493
+GC THC  660.8391 22.9739 -1.0 660.8391
+
+
+		Parsed data from gc0701.xls
+12_20220620_CBT-120C 1340.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_20220629 2022-06-29 15-37-03/001-P1-C1-12_20220620_CBT-120C.D
+CANNA CBC 20x 29.2006 0.5644 0.1704 2.2828
+CANNA CBD 20x 97.1879 1.8785 1.4722 19.7278
+CANNA CBDV 20x 6.6692 0.1289 0.099 1.3269
+CANNA CBG 20x 1.4395 0.0278 0.0234 0.3132
+CANNA CBL 20x 21.6751 0.419 0.3309 4.4337
+CANNA CBN 20x 29.1368 0.5632 0.2041 2.7352
+CANNA CBT 20x 4118.6206 79.6086 69.0354 925.0738
+CANNA ISTD 20x 474.0488 9.1629 8.1041 108.595
+CANNA THC-D9 20x 87.1071 1.6837 1.424 19.081
+CANNA THCV 20x 41.8196 0.8083 0.6568 8.8012
+
+
+		Parsed data from minorestLC.xls
+FEED_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220629_F-E-R 2022-06-29 12-52-12/001-P1-B1-Feed.D
+CANNA CBC 100x 6.5944 0.1722 -1.0 0.5155
+CANNA CBD 100x 2487.095 64.9507 -1.0 504.8461
+CANNA CBDV 100x 8.3899 0.2191 -1.0 1.6693
+CANNA CBN 100x 3.2937 0.086 -1.0 0.3092
+CANNA CBT 100x 2.2092 0.0577 -1.0 0.4962
+CANNA d8-THC 100x 73.7625 1.9263 -1.0 17.0637
+CANNA ISTD 100x 493.5811 12.8899 -1.0 113.0695
+CANNA THC-D9 100x 628.3322 16.409 -1.0 137.6378
+CANNA THCV 100x 1.5095 0.0394 -1.0 0.3177
+
+RAFFINATE_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220629_F-E-R 2022-06-29 12-52-12/002-P1-B2-Raffinate.D
+CANNA CBC 1x 329.2633 5.079 -1.0 25.7412
+CANNA CBD 1x 1634.0167 25.2054 -1.0 331.683
+CANNA CBDV 1x 5.8756 0.0906 -1.0 1.169
+CANNA CBG 1x 3.4488 0.0532 -1.0 0.7505
+CANNA CBL 1x 23.2961 0.3594 -1.0 4.7652
+CANNA CBN 1x 163.541 2.5227 -1.0 15.3522
+CANNA CBT 1x 287.3405 4.4323 -1.0 64.5389
+CANNA d8-THC 1x 87.0847 1.3433 -1.0 20.1456
+CANNA ISTD 1x 499.8741 7.7108 -1.0 114.5111
+CANNA THC-D9 1x 909.2721 14.0259 -1.0 199.1784
+CANNA THCV 1x 2.2152 0.0342 -1.0 0.4662
+
+EXTRACT_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220629_F-E-R 2022-06-29 12-52-12/003-P1-B3-Extract.D
+CANNA CBC 1x 289.0159 2.2868 -1.0 22.5947
+CANNA CBD 1x 7548.9238 59.729 -1.0 1532.3279
+CANNA CBDV 1x 29.352 0.2322 -1.0 5.8399
+CANNA CBG 1x 7.7301 0.0612 -1.0 1.6821
+CANNA CBL 1x 31.8586 0.2521 -1.0 6.5167
+CANNA CBN 1x 264.8632 2.0957 -1.0 24.8636
+CANNA CBT 1x 307.0099 2.4291 -1.0 68.9568
+CANNA d8-THC 1x 198.781 1.5728 -1.0 45.9847
+CANNA ISTD 1x 471.4483 3.7302 -1.0 107.9993
+CANNA THC-D9 1x 1931.7212 15.2843 -1.0 423.1485
+CANNA THCV 1x 3.4195 0.0271 -1.0 0.7197
+
+
+		Parsed data from puma1.10629.xls
+EXTRACT_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220630_F-E-R 2022-06-30 11-29-35/003-P1-C3-Extract.D
+CANNA CBC 10x 12.6474 0.5008 -1.0 0.9887
+CANNA CBD 10x 980.4908 38.821 -1.0 199.0262
+CANNA CBDV 10x 2.973 0.1177 -1.0 0.5915
+CANNA CBL 10x 1.0882 0.0431 -1.0 0.2226
+CANNA CBN 10x 7.9765 0.3158 -1.0 0.7488
+CANNA CBT 10x 17.4134 0.6895 -1.0 3.9112
+CANNA d8-THC 10x 36.3844 1.4406 -1.0 8.4169
+CANNA ISTD 10x 521.9199 20.6646 -1.0 119.5614
+CANNA THC-D9 10x 308.7646 12.2251 -1.0 67.6357
+
+FEED_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220630_F-E-R 2022-06-30 11-29-35/001-P1-C1-Feed.D
+CANNA CBC 100x 7.5958 0.1921 -1.0 0.5938
+CANNA CBD 100x 2541.0188 64.2478 -1.0 515.7919
+CANNA CBDV 100x 8.6489 0.2187 -1.0 1.7208
+CANNA CBN 100x 3.9186 0.0991 -1.0 0.3679
+CANNA CBT 100x 38.8184 0.9815 -1.0 8.7189
+CANNA d8-THC 100x 77.1371 1.9504 -1.0 17.8444
+CANNA ISTD 100x 503.5761 12.7326 -1.0 115.3592
+CANNA THC-D9 100x 643.4351 16.2688 -1.0 140.9461
+CANNA THCV 100x 1.589 0.0402 -1.0 0.3344
+
+RAFFINATE_1.1 0.0:	C:\Users\Public\Documents\ChemStation\2\Data\MOJO_SSMBEEW8C1.1_20220630_F-E-R 2022-06-30 11-29-35/002-P1-C2-Raffinate.D
+CANNA CBC 10x 10.6612 0.8823 -1.0 0.8335
+CANNA CBD 10x 38.544 3.1898 -1.0 7.8239
+CANNA CBN 10x 4.3234 0.3578 -1.0 0.4059
+CANNA CBT 10x 14.2783 1.1816 -1.0 3.207
+CANNA ISTD 10x 505.3411 41.8209 -1.0 115.7635
+CANNA THC-D9 10x 23.4212 1.9383 -1.0 5.1305
+
+
+		Parsed data from puma1.10630.xls
+		Couldn't parse file as data sheet: /home/talon/sim/input/CAL.CSV. Continuing...
+Storing info...
+	Writing WorkingSet contents to the filesystem...
+	Successfully wrote working set contents!
