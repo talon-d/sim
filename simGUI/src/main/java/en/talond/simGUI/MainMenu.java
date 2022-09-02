@@ -767,17 +767,7 @@ public class MainMenu {
 	    			.addMultipleSelection("Compound needing high confidence:", POSSIBLE_CONFIDENT_COMPOUNDS).setID("confident")
 	    			.show();
     		//parses identifier elements from the given name
-    		String[] tokens = f.getByIndex(0).asString().split("#");
-    		String[] name = tokens[0].split("_");
-    		String prefix = name[0];
-    		LocalDate date = SampleFactory.parseDate(name[1]);
-    		String suffix; try {
-    			suffix = name[2]; 
-    		} catch (ArrayIndexOutOfBoundsException e) {
-    			suffix = "";
-    		}
-    		Batch id = SampleFactory.parseBatch(tokens[1]);
-    		//collects analysis flags
+    		String name = f.getByIndex(0).asString();
     		boolean canna = (boolean) f.getByIndex(1).getValue();
     		boolean fthc = (boolean) f.getByIndex(2).getValue();
     		boolean gc = (boolean) f.getByIndex(3).getValue();
@@ -785,7 +775,7 @@ public class MainMenu {
     		@SuppressWarnings("unchecked")
 			List<String> targets = (List<String>) f.getByIndex(4).getValue();
     		//create the request, notify the user, then return
-    		Request r = new Request(prefix,date,suffix,id,canna,fthc,gc,targets.toArray(new String[] {}));
+    		Request r = new Request(name,canna,fthc,gc,targets.toArray(new String[] {}));
     		Terminal.say("\tOperation successful: "+r.getName());
     		return r;
     	} catch (Exception e) {

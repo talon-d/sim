@@ -192,7 +192,7 @@ public class Puma {
 			flags[1] = PUMA_FTHC_INFERENCE;
 			flags[2] = EXTR_GC_INFERENCE;
 		}
-		return new Request(prefix,date,pumaType.getSuffix(),id,flags[0],flags[1],flags[2],new String[] {});
+		return new Request(prefix+"_"+SampleFactory.assembleDate(date)+"_"+pumaType.getSuffix()+id.toString(),flags[0],flags[1],flags[2],new String[] {});
 	}
 	
 	

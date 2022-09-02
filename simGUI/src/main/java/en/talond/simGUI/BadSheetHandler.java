@@ -26,6 +26,7 @@ import javafx.scene.shape.Shape;
  * @author talon
  * @see MainMenu.handleDataSheetSubmission for entry point
  * @apiNote The JavaFX resource for this menu is called sheetHandler.fxml
+ * @deprecated shouldn't even really be called anymore because of the request refactor
  * 
  */
 public class BadSheetHandler {

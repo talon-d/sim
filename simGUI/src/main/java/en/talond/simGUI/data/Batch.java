@@ -11,7 +11,8 @@ package en.talond.simGUI.data;
  * The block number is used by operators to distinguish iterations
  * of a process.
  * @author talon
- *
+ * @deprecated not used by requests anymore, but the PUMA system still needs it
+ * 
  */
 public class Batch {
 

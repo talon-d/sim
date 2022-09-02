@@ -562,7 +562,7 @@ public final class WorkingSet {
 				String[] tokens = line.split(DELIMITER);
 				Terminal.say("\n\t\tDeserializing request: "+tokens[0]);
 				Terminal.say("\t\tDeserialized data set: "+ tokens[1]);
-				Request key = Storage.deserialize(tokens[0], new Request("example",LocalDate.now(),"suffixes",new Batch(0.0),false,false,false,new String[] {"Not a Cannabinoid"}));
+				Request key = Storage.deserialize(tokens[0], new Request("example_20220803_test#3",false,false,false,new String[] {"Not a Cannabinoid"}));
 				DataSet val = Storage.deserialize(tokens[1], new DataSet(key.getName(),new Result[] {}));
 				workingSet.put(key, val);
 			//this is basically a carbon copy of the first case in this if block, it

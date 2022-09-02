@@ -30,6 +30,7 @@ public class SampleFactory {
 	 * formats the internal rich date object to a simple string
 	 * @param date
 	 * @return date as string
+	 * @deprecated
 	 */
 	public static final String assembleDate(final LocalDate date) {
 		final String year = Integer.toString(date.getYear());
@@ -94,6 +95,7 @@ public class SampleFactory {
 	 * Batch name must not have # marker.
 	 * @param batch string
 	 * @return batch instance
+	 * @deprecated
 	 */
 	public static final Batch parseBatch(String batch) {
 		Terminal.say("\t\t\tAttempting to parse batch: "+batch);
@@ -122,17 +124,9 @@ public class SampleFactory {
 		name = name.toUpperCase();
 		Terminal.say("Attempting to autoparse request: "+name);
 		try {
-			String[] toExtractBatch = name.split("#");
-			String main = toExtractBatch[0];
-			String batch = toExtractBatch[1];
-			String[] tokens = main.split("_");
-			String prefix = tokens[0];
-			LocalDate d = parseDate( tokens[1] );
-			String suffixes = tokens[2];
 			String[] targets = new String[] {};
 			boolean[] flags = new boolean[] {true,false,true};
-			Batch id = parseBatch(batch);
-			Request r = new Request(prefix,d,suffixes,id,flags[0],flags[1],flags[2],targets);
+			Request r = new Request(name,flags[0],flags[1],flags[2],targets);
 			Terminal.say("Successfully autoparsed request: "+name+" \tinto: "+r.getName());
 			return r;
 		} catch (Exception e) {

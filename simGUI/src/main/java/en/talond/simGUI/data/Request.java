@@ -31,12 +31,7 @@ public class Request {
 
 	
 	
-	
-	
-	/* Sample Name Components */
-	private final String prefix, suffix;
-	private final LocalDate date;
-	private final Batch id;
+	private final String name;
 	/* Analysis Requests */
 	private final boolean 
 	needsCanna,
@@ -57,14 +52,12 @@ public class Request {
 	 * @param needsGC
 	 * @param targetCompounds
 	 */
-	public Request( /* Sample Name Components: */  final String prefix, final LocalDate date, final String suffix, final Batch id,
+	private Request( /* Sample Name Components: */  final String prefix, final LocalDate date, final String suffix, final Batch id,
 					/* Analysis Flags: */ final boolean needsCanna, final boolean needsFTHC, final boolean needsGC,
 					/* Prep Flags */ final String[] targetCompounds) {
 		// set name components
-		this.prefix = reformIdentifier(prefix);
-		this.suffix = reformIdentifier(suffix);
-		this.date 	= date;
-		this.id 	= id;
+		this.name = 
+				reformIdentifier(prefix)+SampleFactory.assembleDate(date)+reformIdentifier(suffix)+id.toString();
 		// set analysis flags
 		this.needsCanna = needsCanna;
 		this.needsFTHC  = needsFTHC;
@@ -72,15 +65,19 @@ public class Request {
 		this.targetCompounds = targetCompounds;
 	}
 
-
+	
+	
+	public Request (final String name, final boolean needsCanna, final boolean needsFTHC, 
+			final boolean needsGC, final String[] targetCompounds) {
+		this.name = name;
+		this.needsCanna = needsCanna;
+		this.needsFTHC = needsFTHC;
+		this.needsGC = needsGC;
+		this.targetCompounds = targetCompounds;
+	}
 
 	/* returns the (hopefully) unique string object associated with the instance, assembled from its identifiers */
 	public final String getName() 		{ return assembleName(this); }
-	/* sample identifiers */
-	final String getPrefix() 		{ return prefix; }
-	final LocalDate getDate() 		{ return date; }
-	final String getSuffix() 		{ return suffix; }
-	final Batch getBatch() 			{ return id; }
 	/* Analysis Request Getters */
 	public final boolean needsCanna() 			{ return needsCanna; }
 	public final boolean needsFTHC()  			{ return needsFTHC;  }
@@ -193,10 +190,7 @@ public class Request {
 	 * @return request name
 	 */
 	private static final String assembleName(final Request sample) {
-		return sample.getPrefix()+"_"
-				+SampleFactory.assembleDate(sample.getDate())+"_"
-				+sample.getSuffix()
-				+sample.getBatch().toString();
+		return sample.name;
 	}
 
 
