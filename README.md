@@ -13,8 +13,8 @@ Then, create a Maven run configuration with
       
 This should generate a single fat, shaded jar file with all the code and dependencies bundled up.
 Is this good practice?
-  no
+      No.
 Is this very convienient for a small project?
-  definitely
+      Definitely.
   
-Then one can simply run the jar file like any executable.
+Now one can simply run the jar file like any executable.
