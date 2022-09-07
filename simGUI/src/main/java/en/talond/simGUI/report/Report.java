@@ -94,6 +94,7 @@ public class Report {
 	 * @param file to write to
 	 * @throws IOException if the file could not be written for any reason
 	 */
+	@SuppressWarnings("deprecation")
 	public final void writeReport(File toWriteTo) throws IOException {
 		Terminal.say("Writing report file...");
 		if(!toWriteTo.isDirectory())

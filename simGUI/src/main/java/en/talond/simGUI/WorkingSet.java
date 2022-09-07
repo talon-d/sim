@@ -31,6 +31,7 @@ import en.talond.simGUI.report.ReportTable.LC_BY_RT;
  * @author talon
  * 
  */
+@SuppressWarnings("deprecation")
 public final class WorkingSet {
 
 	

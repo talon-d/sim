@@ -2,6 +2,7 @@ package en.talond.simGUI;
 
 import java.io.File;
 import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -36,6 +37,7 @@ import javafx.fxml.FXML;
  * @author talon
  *
  */
+@SuppressWarnings("deprecation")
 public class MainMenu {
 
 	
@@ -207,7 +209,7 @@ public class MainMenu {
 	    			.addMultipleSelection("Samples to report", reportable)
 	    			.show(); 
 	    	//collect date from form
-	    	LocalDate date = SampleFactory.convertUiDate((Date) f.getByIndex(0).getValue());
+	    	LocalDate date = convertUiDate((Date) f.getByIndex(0).getValue());
 	    	//collect selected reportable pumas and requests from the form
 	    	@SuppressWarnings("unchecked")
 			List<String> selected = (List<String>) f.getByIndex(1).getValue();
@@ -593,7 +595,7 @@ public class MainMenu {
 	    			.addText("Batch #")
 	    			.show();
 	    	//interpret and finalize input
-	    	LocalDate date = SampleFactory.convertUiDate((Date) f.getByIndex(0).getValue());
+	    	LocalDate date = convertUiDate((Date) f.getByIndex(0).getValue());
 	    	int index = 0;
 	    	ListElement sel = (ListElement) f.getByIndex(1).getValue();
 	    	for(ListElement possible : pumaTypes)
@@ -682,8 +684,8 @@ public class MainMenu {
     	do {
     		date = SampleFactory.parseDate(strDate);
     		if(date == null)
-    			date = SampleFactory.convertUiDate (
-    					HANDLER_INTERFACE.showDatePicker("Couldn't autoparse puma date, \nEnter one now for"+lcName, strDate));
+    			date = convertUiDate(HANDLER_INTERFACE.showDatePicker(
+    					"Couldn't autoparse puma date, \nEnter one now for"+lcName, strDate));
     	} while (date == null);
     	//ensure that a valid batch is found
     	do {
@@ -794,5 +796,34 @@ public class MainMenu {
     		ReportTable.LC_BY_RT.CBT.getSheetName(),		// CBT
     		ReportTable.LC_BY_RT.THC_d9.getSheetName()	// THC (high quantity)
     };
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /**
+     * Factory method for converting deprecated Java Dates
+     * to the LocalDate object used by all sim objects.
+     * The UiBooster library uses the deprecated Date object for its
+     * express date picker window. Rather than modifying the window,
+     * this factory method is much quicker.
+     * @param raw date from gui
+     * @return local date
+     */
+    public static final LocalDate convertUiDate(Date fromUi) {
+    	return fromUi.toInstant()
+  		      .atZone(ZoneId.systemDefault())
+  		      .toLocalDate();
+    }
     
 }

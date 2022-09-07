@@ -21,6 +21,7 @@ import en.talond.simGUI.io.SampleFactory;
  * @author talon
  * 
  */
+@SuppressWarnings("deprecation")
 public class Puma {
 
 	

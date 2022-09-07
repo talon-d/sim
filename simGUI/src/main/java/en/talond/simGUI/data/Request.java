@@ -1,9 +1,5 @@
 package en.talond.simGUI.data;
 
-import java.time.LocalDate;
-
-import en.talond.simGUI.io.SampleFactory;
-
 
 
 
@@ -27,7 +23,7 @@ public class Request {
 	
 	
 	//characters which are not allowed within the prefix or suffix of a sample
-	public static final String DISALLOWED_CHARACTERS = "[ >!\t#_]";
+	public static final String DISALLOWED_CHARACTERS = "[ \t]";
 
 	
 	
@@ -40,36 +36,13 @@ public class Request {
 	private final String[] targetCompounds;
 
 	
-	
-	/**
-	 * Sample analysis request constructor
-	 * @param prefix
-	 * @param date
-	 * @param suffix
-	 * @param batch id
-	 * @param needsCanna
-	 * @param needsFTHC
-	 * @param needsGC
-	 * @param targetCompounds
-	 */
-	private Request( /* Sample Name Components: */  final String prefix, final LocalDate date, final String suffix, final Batch id,
-					/* Analysis Flags: */ final boolean needsCanna, final boolean needsFTHC, final boolean needsGC,
-					/* Prep Flags */ final String[] targetCompounds) {
-		// set name components
-		this.name = 
-				reformIdentifier(prefix)+SampleFactory.assembleDate(date)+reformIdentifier(suffix)+id.toString();
-		// set analysis flags
-		this.needsCanna = needsCanna;
-		this.needsFTHC  = needsFTHC;
-		this.needsGC    = needsGC;
-		this.targetCompounds = targetCompounds;
-	}
+
 
 	
 	
 	public Request (final String name, final boolean needsCanna, final boolean needsFTHC, 
 			final boolean needsGC, final String[] targetCompounds) {
-		this.name = name;
+		this.name = reformIdentifier(name);
 		this.needsCanna = needsCanna;
 		this.needsFTHC = needsFTHC;
 		this.needsGC = needsGC;

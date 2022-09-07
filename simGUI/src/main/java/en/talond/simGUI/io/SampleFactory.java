@@ -1,8 +1,6 @@
 package en.talond.simGUI.io;
 
 import java.time.LocalDate;
-import java.time.ZoneId;
-import java.util.Date;
 
 import en.talond.simGUI.Terminal;
 import en.talond.simGUI.data.Batch;
@@ -16,6 +14,7 @@ import en.talond.simGUI.data.Request;
 /**
  * This class allows a user to create, manage, and view sample request data.
  * @author talon
+ * @deprecated mostly redundant with the request refactor, only here for (possibly unneeded) backwards compatibility
  *
  */
 public class SampleFactory {
@@ -48,20 +47,7 @@ public class SampleFactory {
 	
 	
 	
-    /**
-     * Factory method for converting deprecated Java Dates
-     * to the LocalDate object used by all sim objects.
-     * The UiBooster library uses the deprecated Date object for its
-     * express date picker window. Rather than modifying the window,
-     * this factory method is much quicker.
-     * @param raw date from gui
-     * @return local date
-     */
-    public static final LocalDate convertUiDate(Date fromUi) {
-    	return fromUi.toInstant()
-  		      .atZone(ZoneId.systemDefault())
-  		      .toLocalDate();
-    }
+ 
 	
 	
 	
@@ -95,7 +81,6 @@ public class SampleFactory {
 	 * Batch name must not have # marker.
 	 * @param batch string
 	 * @return batch instance
-	 * @deprecated
 	 */
 	public static final Batch parseBatch(String batch) {
 		Terminal.say("\t\t\tAttempting to parse batch: "+batch);

@@ -94,6 +94,7 @@ public class DataSheet {
 	 * @param sheet to parse (Apache Workbook representation)
 	 * @return content map
 	 */
+	@SuppressWarnings("deprecation")
 	private static final Map<String,SheetData[]> generateContentMap(final Workbook w) {
 		//Declaring a map of sample names to result sets
 		final Map<String,SheetData[]> contentMap = new HashMap<>();
