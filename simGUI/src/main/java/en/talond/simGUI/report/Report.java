@@ -262,6 +262,8 @@ public class Report {
 				LCResult fromFTHC;
 				if(finalized.getSource().contains("but below LoQ according to:"))
 					fromFTHC = new LCResult(new DataPacket[] {finalized},true,false,true);
+				else if(finalized.getSource().contains("fTHC shows THC might be present, but below LoD according to:"))
+					fromFTHC = new LCResult(new DataPacket[] {finalized},true,false,true);
 				else 
 					fromFTHC = new LCResult(new DataPacket[] {finalized},true,true,false);
 				lcMap.put(thcKey, fromFTHC);

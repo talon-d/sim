@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="window" maxHeight="1080" maxWidth="1920" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="en.talond.simGUI.MainMenu">
+<AnchorPane id="window" maxHeight="1080" maxWidth="1920" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="en.talond.simGUI.MainMenu">
    <children>
       <Pane id="buttonHolder" layoutX="14.0" layoutY="14.0" prefHeight="206.0" prefWidth="197.0">
          <children>
@@ -78,7 +78,8 @@
          </font>
       </Button>
       <Button id="thcNDAdder" layoutX="14.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleAddNondetect" prefHeight="33.0" prefWidth="79.0" text="+ ND" />
-      <Button id="editRequirementsButton" layoutX="14.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleRequestAlteration" prefHeight="35.0" prefWidth="79.0" text="Alter" />
+      <Button id="editRequirementsButton" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleRequestAlteration" prefHeight="35.0" prefWidth="79.0" text="Alter" />
       <Button id="addBelowLoq" layoutX="14.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleAddBelowLoq" prefHeight="35.0" prefWidth="79.0" text="+ &gt;LoQ" />
+      <Button id="addBelowLod" layoutX="14.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleAddBelowLod" prefHeight="35.0" prefWidth="79.0" text="+ &gt;LoD" />
    </children>
 </AnchorPane>

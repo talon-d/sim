@@ -166,6 +166,16 @@ public class DataPacket {
 	
 	
 	
+	/**
+	 * Factory method for generating standardized fTHC packets for >LoD results.
+	 * @param initials of technician
+	 * @return standardized >LoD packet
+	 */
+	public static final DataPacket generateFTHCBelowLod(String initialsOfTechnician) {
+		return new DataPacket("fTHC shows THC might be present, but below LoD according to: "+initialsOfTechnician.toUpperCase(), DataPacket.FTHC_TYPE, 0.0, 0.0, 0.0, 0.0);
+	}
+	
+	
 	
 	
 

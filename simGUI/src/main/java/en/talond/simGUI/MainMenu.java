@@ -130,10 +130,8 @@ public class MainMenu {
     	Terminal.say("Add >LoQ event fired!");
     	List<Request> requests = WorkingSet.getRequests();
     	List<ListElement> elements = new ArrayList<>(requests.size());
-    	for(Request r : requests) {
-    		Terminal.say("\tAdding "+r.getName()+"to the mergable list...");
+    	for(Request r : requests)
     		elements.add(new ListElement(r.getName(),r.getFlags()));
-    	}
     	ListElement sel = HANDLER_INTERFACE.showList(
     			"Pick the sample to add an fTHC >LoQ result to:", "Manual >LoQ Creator", elements.toArray(new ListElement[] {}));
     	String initials = HANDLER_INTERFACE.showTextInputDialog("Enter your intials:");
@@ -150,6 +148,30 @@ public class MainMenu {
     
     
     
+    /**
+     * Allows to user to add a special type of fTHC packet to a data set.
+     * Only very slightly different to an >LoQ result
+     * @apiNote button id=addBelowLod
+     */
+    @FXML private final void handleAddBelowLod() {
+    	Terminal.say("Add >LoD event fired!");
+    	List<Request> requests = WorkingSet.getRequests();
+    	List<ListElement> elements = new ArrayList<>(requests.size());
+    	for(Request r : requests)
+    		elements.add(new ListElement(r.getName(),r.getFlags()));
+    	ListElement sel = HANDLER_INTERFACE.showList(
+    			"Pick the sample to add an fTHC >LoD result to:", "Manual >LoD Creator", elements.toArray(new ListElement[] {}));
+    	String initials = HANDLER_INTERFACE.showTextInputDialog("Enter your intials:");
+    	if(sel == null)
+    		return;
+    	else for (Request r : requests) 
+    		if(r.getName().equalsIgnoreCase(sel.getTitle())) {
+    			DataPacket belowLod = DataPacket.generateFTHCBelowLod(initials);
+    			WorkingSet.insertFthcPacket(r, belowLod);
+    			break;
+    		}
+    	Gui.updateSet();
+    }
     
     
     
