@@ -186,11 +186,15 @@ public class Report {
 		Terminal.say("Generated report contents! Writing tables to spreadsheet...");
 		//Use the generated lists to fill out the spreadsheet
 		new OldLiquidTable(lc,lcDataOfAll).generate();
+		Terminal.say("Successfully generated LC table!");
 		new OldRelPerTable(lc,lcDataOfAll).generate();
+		Terminal.say("Successfully generated relative % LC Table");
 		new OldGCTable(gc,gcDataOfAll).generate();
+		Terminal.say("Successfully generated GC Table");
 		new SourceTable(data,sourcesOfAll).generate();
-		//place the color key
-		ReportTable.generateKey(lc, 4, 0);
+		Terminal.say("Successfully generated source table!");
+		//place the color key TODO causes null row error when writing to small reports. Fixable, but negligable and irritating
+		//ReportTable.generateKey(lc, 3, 0);
 		Terminal.say("Report file generated!");
 		return report;
 	}

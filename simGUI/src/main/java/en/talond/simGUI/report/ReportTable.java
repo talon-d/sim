@@ -127,14 +127,20 @@ public abstract class ReportTable {
 	
 	
 	/**
+	 * 
 	 * @param sheet
 	 * @param firstRow
 	 * @param leftmostCol
+	 * @deprecated since it was causing an issue while providing zero benefit
 	 */
 	static final void generateKey(Sheet sheet, int firstRow, int leftmostCol) {
+		Terminal.say("Generating report key with first row "+firstRow+" and leftmost column "+leftmostCol);
 		Cell header = sheet.getRow(firstRow).getCell(leftmostCol);
+		Terminal.say("Created header");
 		Cell lowConf = sheet.getRow(firstRow+1).getCell(leftmostCol);
+		Terminal.say("Created low conf element");
 		Cell highConf = sheet.getRow(firstRow+2).getCell(leftmostCol);
+		Terminal.say("Create high conf element");
 		header.setCellValue("- KEY -");
 		lowConf.setCellValue("Potential Issue");
 		highConf.setCellValue("Good Result");
