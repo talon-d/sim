@@ -94,7 +94,6 @@ public class DataSheet {
 	 * @param sheet to parse (Apache Workbook representation)
 	 * @return content map
 	 */
-	@SuppressWarnings("deprecation")
 	private static final Map<String,SheetData[]> generateContentMap(final Workbook w) {
 		//Declaring a map of sample names to result sets
 		final Map<String,SheetData[]> contentMap = new HashMap<>();
@@ -511,17 +510,17 @@ public class DataSheet {
 	INVALID_MASS_PERCENT = -1.0;
 
 
-	//Method name elements
+	//Method name elements; not used anymore
 	public static final String
 	EXT		= "\\.M",
 	TWO_NUM	= "[0-9]{2}",
 	AVIV	= "AVIV-FINGERPRINT",
 	ADS		= AVIV+"-ADS[0-9](-PUMA)?";
-	//Method name expressions
+	//Method name tags
 	public static final String
-	CANNA_EXP	= "^(CANNABINOIDS_)"+TWO_NUM+"-VWD[C]?"+EXT,
-	FTHC_EXP  	= "^(FTHC-)"+TWO_NUM+"(-GRADIENT)?(-210)?"+EXT,
-	GC_EXP		= "^("+AVIV+"|"+ADS+")"+EXT;
+	CANNA_TAG	= "CANNABINOIDS",
+	FTHC_TAG  	= "FTHC",
+	GC_TAG		= "AVIV";
 
 
 
@@ -531,9 +530,9 @@ public class DataSheet {
 	 *
 	 */
 	public static enum Method {
-		CANNA (CANNA_EXP),
-		FTHC  (FTHC_EXP),
-		GC    (GC_EXP);
+		CANNA (CANNA_TAG),
+		FTHC  (FTHC_TAG),
+		GC    (GC_TAG);
 
 		private final String regexp;
 		Method(final String regexp) { 
@@ -547,7 +546,7 @@ public class DataSheet {
 		 */
 		public static final Method detect(final String possibleMethod) {
 			for(final Method m : Method.values())
-				if(possibleMethod.toUpperCase().matches(m.regexp))
+				if(possibleMethod.toUpperCase().contains(m.regexp))
 					return m;
 				else continue;
 			return null;

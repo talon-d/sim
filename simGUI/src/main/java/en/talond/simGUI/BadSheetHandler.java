@@ -1,14 +1,9 @@
 package en.talond.simGUI;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import de.milchreis.uibooster.model.Form;
-import en.talond.simGUI.data.DataSet;
-import en.talond.simGUI.data.Request;
-import en.talond.simGUI.data.Result;
+import en.talond.simGUI.data.*;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -56,6 +51,7 @@ public class BadSheetHandler {
 		update();
 	}
 
+	
 	
 	
 	

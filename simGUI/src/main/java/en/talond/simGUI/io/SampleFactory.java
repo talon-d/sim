@@ -14,9 +14,9 @@ import en.talond.simGUI.data.Request;
 /**
  * This class allows a user to create, manage, and view sample request data.
  * @author talon
- * @deprecated mostly redundant with the request refactor, only here for (possibly unneeded) backwards compatibility
  *
  */
+@SuppressWarnings("deprecation")
 public class SampleFactory {
 
 	
@@ -29,7 +29,6 @@ public class SampleFactory {
 	 * formats the internal rich date object to a simple string
 	 * @param date
 	 * @return date as string
-	 * @deprecated
 	 */
 	public static final String assembleDate(final LocalDate date) {
 		final String year = Integer.toString(date.getYear());
@@ -101,7 +100,7 @@ public class SampleFactory {
 	
 	
 	/**
-	 * Infers a basic canna gc request from a given name
+	 * Infers a basic canna + gc request from a given name
 	 * @param name
 	 * @return basic request
 	 */
