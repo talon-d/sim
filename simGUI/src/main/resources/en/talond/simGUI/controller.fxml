@@ -6,80 +6,147 @@
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="window" maxHeight="1080" maxWidth="1920" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/13" xmlns:fx="http://javafx.com/fxml/1" fx:controller="en.talond.simGUI.MainMenu">
+<AnchorPane id="window" maxHeight="1080" maxWidth="1920" minHeight="-Infinity" minWidth="-Infinity" prefHeight="409.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="en.talond.simGUI.MainMenu">
    <children>
-      <Pane id="buttonHolder" layoutX="14.0" layoutY="14.0" prefHeight="206.0" prefWidth="197.0">
+      <Pane id="generalButtons" layoutX="14.0" layoutY="14.0" prefHeight="363.0" prefWidth="197.0">
          <children>
-            <Button id="repButton" layoutX="2.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleReportGeneration" prefHeight="33.0" prefWidth="193.0" text="Generate Report">
-               <font>
-                  <Font size="18.0" />
-               </font></Button>
-            <Button id="dataButton" layoutX="2.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleDataSheetSubmission" prefHeight="33.0" prefWidth="193.0" text="Submit Data">
-               <font>
-                  <Font size="18.0" />
-               </font></Button>
-            <Button id="calButton" layoutX="2.0" layoutY="169.0" mnemonicParsing="false" onAction="#handleCalibrationUpdate" text="Update Calibration">
-               <font>
-                  <Font size="18.0" />
-               </font></Button>
-            <Group layoutX="7.0" layoutY="31.0">
+            <Group id="logo" layoutX="22.0" layoutY="48.0">
                <children>
                   <Label layoutX="33.0" layoutY="11.0" text="Machine">
                      <font>
-                        <Font size="28.0" />
+                        <Font name="Monospaced Regular" size="30.0" />
                      </font>
                   </Label>
                   <Label layoutX="-7.0" layoutY="-25.0" prefHeight="33.0" prefWidth="79.0" text="Sample">
                      <font>
-                        <Font size="20.0" />
+                        <Font name="Monospaced Regular" size="20.0" />
                      </font>
                   </Label>
-                  <Label layoutX="10.0" layoutY="-4.0" prefHeight="25.0" prefWidth="117.0" text="Informatics">
+                  <Label layoutX="2.0" layoutY="-4.0" prefHeight="25.0" prefWidth="141.0" text="Informatics">
                      <font>
-                        <Font size="20.0" />
+                        <Font name="Monospaced Regular" size="20.0" />
                      </font>
                   </Label>
                </children>
             </Group>
-               <Button id="mergeButton" layoutX="88.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleExistingMerge" prefHeight="33.0" prefWidth="109.0" text="Merge">
+            <VBox id="mainButtonContainer" layoutX="-1.0" layoutY="127.0" prefHeight="222.0" prefWidth="200.0">
+               <children>
+                  <Button id="dataButton" mnemonicParsing="false" onAction="#handleDataSheetSubmission" prefHeight="70.0" prefWidth="200.0" text="Submit Data" textAlignment="CENTER">
+                     <font>
+                        <Font name="Monospaced Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button id="repButton" mnemonicParsing="false" onAction="#handleReportGeneration" prefHeight="70.0" prefWidth="200.0" text="Generate Report" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Monospaced Regular" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button id="calButton" mnemonicParsing="false" onAction="#handleCalibrationUpdate" prefHeight="70.0" prefWidth="200.0" text="Update Calibration" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Monospaced Regular" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Pane id="workingSetContainer" layoutX="228.0" layoutY="10.0" prefHeight="387.0" prefWidth="358.0">
+         <children>
+            <Rectangle id="setBorder" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="381.0" layoutX="-1.0" layoutY="3.0" stroke="BLACK" strokeType="INSIDE" width="348.0" />
+            <ListView id="workingSet" layoutX="5.0" layoutY="9.0" prefHeight="369.0" prefWidth="335.0" />
+         </children>
+      </Pane>
+      <VBox id="dataButtons" layoutX="712.0" layoutY="204.0" prefHeight="179.0" prefWidth="109.0">
+         <children>
+            <Button id="thcNDAdder" mnemonicParsing="false" onAction="#handleAddNondetect" prefHeight="50.0" prefWidth="110.0" text="+ND" textAlignment="CENTER">
                <font>
-                  <Font size="18.0" />
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Button>
+            <Button id="editRequirementsButton" mnemonicParsing="false" onAction="#handleRequestAlteration" prefHeight="50.0" prefWidth="110.0" text="Alter" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="20.0" />
+               </font>
+            </Button>
+            <Button id="addBelowLoq" mnemonicParsing="false" onAction="#handleAddBelowLoq" prefHeight="50.0" prefWidth="110.0" text="+&gt;LoQ" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button id="addBelowLod" mnemonicParsing="false" onAction="#handleAddBelowLod" prefHeight="50.0" prefWidth="110.0" text="+&gt;LoD" textAlignment="CENTER">
+               <font>
+                  <Font size="20.0" />
                </font>
             </Button>
          </children>
-      </Pane>
-      <Pane layoutX="302.0" layoutY="10.0" prefHeight="387.0" prefWidth="284.0">
+      </VBox>
+      <VBox id="setManagementButtons" layoutX="586.0" layoutY="204.0" prefHeight="179.0" prefWidth="111.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="381.0" layoutX="-76.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="360.0" />
-            <ListView id="workingSet" layoutX="-70.0" layoutY="7.0" prefHeight="369.0" prefWidth="348.0" />
+            <Button id="reqButton" mnemonicParsing="false" onAction="#handleRequestGeneration" prefHeight="40.0" prefWidth="110.0" text="Add" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button id="delReqButton" mnemonicParsing="false" onAction="#handleRequestRemoval" prefHeight="40.0" prefWidth="110.0" text="Delete" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="18.0" />
+               </font>
+            </Button>
+            <Button id="reqPumaButton" mnemonicParsing="false" onAction="#handlePumaGeneration" prefHeight="40.0" prefWidth="110.0" text="+PUMA" textAlignment="CENTER">
+            	<font>
+                  <Font name="Monospaced Regular" size="18.0" />
+            	</font>
+            </Button>
+            <Button id="delAllButton" mnemonicParsing="false" onAction="#handleDeleteAll" prefHeight="40.0" prefWidth="110.0" text="Delete ALL" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="14.0" />
+               </font>
+            </Button>
+               <Button id="mergeButton" mnemonicParsing="false" onAction="#handleExistingMerge" prefHeight="40.0" prefWidth="110.0" text="Merge" textAlignment="CENTER">
+               <font>
+                  <Font name="Monospaced Regular" size="18.0" />
+               </font>
+            </Button>
          </children>
-      </Pane>
-      <Button id="reqButton" layoutX="102.0" layoutY="253.0" mnemonicParsing="false" onAction="#handleRequestGeneration" prefHeight="30.0" prefWidth="109.0" text="Add">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button id="delReqButton" layoutX="102.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleRequestRemoval" prefHeight="30.0" prefWidth="109.0" text="Delete">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button id="reqPumaButton" layoutX="102.0" layoutY="283.0" mnemonicParsing="false" onAction="#handlePumaGeneration" prefHeight="30.0" prefWidth="109.0" text="+PUMA">
-      	<font>
-            <Font size="16.0" />
-      	</font>
-      </Button>
-      <Button id="delAllButton" layoutX="102.0" layoutY="343.0" mnemonicParsing="false" onAction="#handleDeleteAll" prefHeight="30.0" prefWidth="109.0" text="Delete ALL">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button id="thcNDAdder" layoutX="14.0" layoutY="223.0" mnemonicParsing="false" onAction="#handleAddNondetect" prefHeight="33.0" prefWidth="79.0" text="+ ND" />
-      <Button id="editRequirementsButton" layoutX="14.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleRequestAlteration" prefHeight="35.0" prefWidth="79.0" text="Alter" />
-      <Button id="addBelowLoq" layoutX="14.0" layoutY="256.0" mnemonicParsing="false" onAction="#handleAddBelowLoq" prefHeight="35.0" prefWidth="79.0" text="+ &gt;LoQ" />
-      <Button id="addBelowLod" layoutX="14.0" layoutY="291.0" mnemonicParsing="false" onAction="#handleAddBelowLod" prefHeight="35.0" prefWidth="79.0" text="+ &gt;LoD" />
+      </VBox>
+      <VBox id="legend" layoutX="595.0" layoutY="58.0" prefHeight="100.0" prefWidth="234.0">
+         <children>
+            <Group id="goodPart">
+               <children>
+                  <Circle id="goodLegendCircle" fill="BLUE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="19.0" layoutY="-16.0" prefHeight="30.0" prefWidth="200.0" text="Matches Requirements">
+                     <font>
+                        <Font name="Monospaced Regular" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <Group id="okayPart">
+               <children>
+                  <Circle id="okayLegendCircle" fill="AQUAMARINE" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="19.0" layoutY="-16.0" prefHeight="30.0" prefWidth="200.0" text="Missing Minor Requirement">
+                     <font>
+                        <Font name="Monospaced Regular" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+            <Group id="badPart">
+               <children>
+                  <Circle id="badLegendCircle" fill="YELLOW" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="19.0" layoutY="-16.0" prefHeight="30.0" prefWidth="200.0" text="Missing Major Requirement">
+                     <font>
+                        <Font name="Monospaced Regular" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Group>
+         </children>
+      </VBox>
    </children>
 </AnchorPane>
